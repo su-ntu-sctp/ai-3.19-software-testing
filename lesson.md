@@ -1,3 +1,23 @@
+# Software Testing: Unit and Integration Testing
+
+---
+
+## Lesson Overview
+
+This lesson introduces students to the fundamentals of software testing in Java, focusing on unit testing and integration testing within a Spring Boot application. Learners will understand how automated testing improves code quality, prevents regressions, and supports clean, maintainable development. Through hands-on examples, students will practice writing unit tests using JUnit and Mockito and perform integration testing using Spring Boot’s MockMvc framework.
+
+---
+
+## Lesson Objectives
+
+By the end of this lesson, learners will be able to:
+
+- Explain the purpose and benefits of software testing in modern development workflows.  
+- Write effective unit tests using JUnit and Mockito to validate business logic.  
+- Mock dependencies to test service-layer components in isolation.  
+- Perform integration testing of REST APIs using Spring Boot and MockMvc.  
+- Evaluate test results and understand how automated tests support refactoring and continuous development.
+
 ## Part 1: Introduction to Software Testing
 
 Software testing is the process of evaluating a software application to ensure that it behaves correctly, meets business requirements, and remains reliable under different conditions. Testing helps identify defects early, improves code quality, and provides confidence that changes or new features will not break existing functionality. In modern software development, testing is essential because applications often involve multiple layers—controllers, services, repositories, databases, and external integrations—where issues can arise at any point.

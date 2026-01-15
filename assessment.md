@@ -1,68 +1,116 @@
 # Assessment / Quiz
 
 ## Overview
-- **Lesson:** [title / module.lesson]
+- **Lesson:** Software Testing with JUnit and Mockito
 - **Format:** 10 questions (mix MCQ / True–False / Short Answer)
 - **Time:** ~10–15 minutes
 - **Scoring:** 1 point each (unless stated)
 
 ## Questions
 
-### Q1 (MCQ)
-[Question?]  
-A. [ ]  
-B. [ ]  
-C. [ ]  
-D. [ ]  
-**Answer:** [A/B/C/D] — [1-line reason]
+### Q1 (True/False)
 
-### Q2 (MCQ)
-[Question?]  
-A. [ ]  
-B. [ ]  
-C. [ ]  
-D. [ ]  
-**Answer:** [A/B/C/D] — [1-line reason]
+Q1: Unit testing focuses on testing individual units of code in complete isolation?
 
-### Q3 (True/False)
-[Statement]  
-**Answer:** [True/False] — [1-line reason]
+A - True
 
-### Q4 (True/False)
-[Statement]  
-**Answer:** [True/False] — [1-line reason]
+B - False
 
-### Q5 (Short Answer)
-[Prompt]  
-**Expected:** [1–2 key points]
+---
 
-### Q6 (Short Answer)
-[Prompt]  
-**Expected:** [1–2 key points]
+Q2: What does TDD stand for?
 
-### Q7 (MCQ)
-[Question?]  
-A. [ ]  
-B. [ ]  
-C. [ ]  
-D. [ ]  
-**Answer:** [A/B/C/D] — [1-line reason]
+A - Test Driven Design
 
-### Q8 (MCQ)
-[Question?]  
-A. [ ]  
-B. [ ]  
-C. [ ]  
-D. [ ]  
-**Answer:** [A/B/C/D] — [1-line reason]
+B - Test Driven Development
 
-### Q9 (True/False)
-[Statement]  
-**Answer:** [True/False] — [1-line reason]
+C - Test Data Development
 
-### Q10 (Short Answer)
-[Prompt]  
-**Expected:** [1–2 key points]
+D - Technical Development Design
+
+---
+
+Q3: In Test Driven Development (TDD), tests are written before the actual code?
+
+A - True
+
+B - False
+
+---
+
+Q4: What is the purpose of mocking in unit testing?
+
+A - To make tests run faster
+
+B - To simulate the behavior of real objects and test in isolation
+
+C - To test the database
+
+D - To create fake users
+
+---
+
+Q5: Which annotation is used to create a mock object in Mockito?
+
+A - @Autowired
+
+B - @Mock
+
+C - @Test
+
+D - @Component
+
+---
+
+Q6: The @InjectMocks annotation is used to inject mock dependencies into the class being tested?
+
+A - True
+
+B - False
+
+---
+
+Q7: What does the assertEquals() assertion method do?
+
+A - Checks that two values are not equal
+
+B - Checks that a value is null
+
+C - Checks that two values are equal
+
+D - Checks that a value is true
+
+---
+
+Q8: Which annotation loads the full Spring application context for integration testing?
+
+A - @Test
+
+B - @Mock
+
+C - @SpringBootTest
+
+D - @Component
+
+---
+
+Q9: MockMvc is used to test REST controllers by mocking HTTP requests and responses?
+
+A - True
+
+B - False
+
+---
+
+Q10: What does JsonPath allow you to do in integration tests?
+
+A - Create JSON files
+
+B - Query and extract values from JSON responses
+
+C - Convert Java objects to JSON
+
+D - Mock JSON data
 
 ## Notes
 - Keep each question atomic and aligned to the lesson objectives.
